@@ -1,0 +1,14 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles */
+body {
+  @apply text-avanti-dark-blue;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Add more custom styles as needed */

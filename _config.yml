@@ -1,0 +1,41 @@
+title: AvantiCart
+description: Powerful ecommerce platform for your business
+baseurl: ""
+url: "https://avanticart.ro"
+
+collections:
+  posts:
+    output: true
+  case_studies:
+    output: true
+  portfolio:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      layout: "case_study"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio_item"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - vite.config.js
+  - tailwind.config.js
+  - postcss.config.js

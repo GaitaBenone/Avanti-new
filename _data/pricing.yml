@@ -1,0 +1,28 @@
+- name: Basic
+  price: $29/month
+  description: Perfect for small businesses just starting out
+  features:
+    - Up to 100 products
+    - Basic analytics
+    - 24/7 support
+    - SSL certificate
+
+- name: Pro
+  price: $79/month
+  description: For growing businesses with more advanced needs
+  features:
+    - Up to 1000 products
+    - Advanced analytics
+    - Priority support
+    - SSL certificate
+    - Multi-currency support
+
+- name: Enterprise
+  price: Custom
+  description: Tailored solutions for large-scale operations
+  features:
+    - Unlimited products
+    - Custom integrations
+    - Dedicated account manager
+    - Advanced security features
+    - Multi-language support
